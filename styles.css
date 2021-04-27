@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(26, 28, 37);
+    font-family: 'Roboto', sans-serif;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    #lista {
+        width: 90vw;
+    }
+
+    #inputTitle {
+        width: 70vw;
+    }
+
+    #inputType, #inputYear {
+        width: 20vw;
+    }
+}
+
+@media (min-width: 500px) {
+    #lista {
+        width: 50vw;
+    }
+    
+    #inputTitle {
+        width: 30vw;
+    }
+
+    #inputType, #inputYear {
+        width: 10vw;
+    }
+}
+
+.btn {
+    border: solid #EEEEEE 1px;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    color: #EEEEEE;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #EEEEEE;
+    color: rgb(53, 54, 66);
+}
+
+.input {
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEEEE;
+    padding: 0 10px;
+}
+
+#inputTitle {
+    height: 40px;
+}
+
+#inputType, #inputYear {
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#lista {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.pelicula {
+    min-height: 20vh;
+    max-height: 50vh;
+    border-radius: 5px;
+    background-color: rgb(89, 92, 107);
+    padding: 20px;
+    margin: 10px;
+}
+
+img {
+    float: left;
+    height: 20vh;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+#paginas {
+    margin: 10px auto;
+    display: inline-flex;
+}
