@@ -1,4 +1,4 @@
-const urlAPI = "http://www.omdbapi.com/?apikey=430cd2b8";
+const urlAPI = "https://www.omdbapi.com/?apikey=430cd2b8";
 var numPagina;
 var cantPaginas;
 
