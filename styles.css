@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-color: rgb(26, 28, 37);
+    background-color: rgb(10, 10, 10);
     font-family: 'Roboto', sans-serif;
     color: #EEEEEE;
     text-align: center;
+}
+
+h1 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 @media (max-width: 500px) {
@@ -80,9 +85,13 @@ body {
     min-height: 20vh;
     max-height: 50vh;
     border-radius: 5px;
-    background-color: rgb(89, 92, 107);
+    background-color: rgb(51, 51, 51);
     padding: 20px;
     margin: 10px;
+}
+
+.pelicula:hover {
+    background-color: rgb(73, 73, 73);
 }
 
 img {
@@ -99,4 +108,30 @@ a {
 #paginas {
     margin: 10px auto;
     display: inline-flex;
+}
+
+.modal-content {
+    background-color: rgb(73, 73, 73);
+    text-align: left;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-body::-webkit-scrollbar {
+    width: 5px;
+}
+
+.modal-body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+    background-color: #EEEEEE;
+    border-radius: 20px;
+}
+
+.modal-footer {
+    border-top: 0 none;
 }
